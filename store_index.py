@@ -19,7 +19,7 @@ embeddings = download_hugging_face_embeddings()
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
-index_name = "healtcarebot"
+index_name = "healthcarebot"
 
 
 pc.create_index(
